@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="p1">welcome</p>
+    <p id="p2">wscube tech</p>
+
+
+    <button id="btn">swap data</button>
+
+    <script>
+        // let para1Element = document.getElementById("p1")
+        // let para2Element = document.getElementById("p2")
+
+        // function swapData() {
+        //     let para1ElementValue = para1Element.innerHTML
+        //     let para2ElementValue = para2Element.innerHTML
+        //     para1Element.innerHTML = para2ElementValue
+        //     para2Element.innerHTML = para1ElementValue
+        //     console.log(para1ElementValue)
+        // }
+
+        // let para1 = document.querySelector("#p1");
+        // let para2 = document.querySelector("#p2");
+        // let btn = document.querySelector("#btn");
+        // btn.addEventListener("click", function() {
+        //     let para1value = para1.innerHTML;
+        //     let para2value = para2.innerHTML;
+
+        //     para1.innerHTML = para2value;
+        //     para2.innerHTML = para1value;
+        //     console.log(para1value);
+        // })
+
+        // let para1 = document.querySelector("#p1");
+        // let para2 = document.querySelector("#p2");
+        // let btn = document.querySelector("#btn");
+        // btn.addEventListener("click", function() {
+        //     let paravalue = para1.innerHTML;
+        //     para1.innerHTML = para2.innerHTML;
+        //     para2.innerHTML = paravalue;
+        // })
+
+        let para1 = document.querySelector("#p1");
+        let para2 = document.querySelector("#p2");
+        let btn = document.querySelector("#btn");
+        btn.addEventListener("click", function() {
+            let paravalue = para1.innerHTML;
+            para1.innerHTML = para2.innerHTML;
+            para2.innerHTML = paravalue;
+        })
+    </script>
+
+</body>
+
+</html>
